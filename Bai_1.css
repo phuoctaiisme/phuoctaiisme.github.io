@@ -1,0 +1,47 @@
+.box{
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 30px gray;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    background-color: lightyellow;
+
+}
+
+.group{
+    font-variant: small-caps;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.nhap{
+    outline: none;
+    border: 1px solid gray;
+    padding: 8px;
+    width: 280px;
+    border-radius: 3px;
+    background-color: lightsteelblue;
+}
+
+.nhap:focus{
+    background-color: lightcyan;
+    box-shadow: 0px 0px 3px gray;
+    border: 1px solid red;
+}
+.nut{
+    padding: 8px 30px;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    box-shadow: inset 0px 0px 20px orangered;
+}
+
+.nut:hover{
+    color: black;
+    box-shadow: inset 0px 0px 20px lightblue;
+}
+.nut:disabled{
+    color: darkgray;
+    box-shadow: inset 0px 0px 20px gray;
+}

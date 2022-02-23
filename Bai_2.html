@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link rel="stylesheet" href="Bai_2.css">
+</head>
+
+<body>
+    <form>
+        <div class="group">
+            <label>Họ và Tên: </label> <br>
+            <input type="text" class="choice">
+        </div>
+        <div class="group">
+            <fieldset>
+                <legend>Giới tính: </legend>
+                <label><input type="radio" name="gioi_tinh">Nam</label>
+                <label><input type="radio" name="gioi_tinh">Nữ</label>
+            </fieldset>
+        </div>
+        <div class="group">
+            <label>Ngày Sinh: </label> <br>
+            <input type="date" class="choice">
+        </div>
+        <div class="group">
+            <label>Điểm</label> <br>
+            <input type="number" class="choice" min="0" max="10" step="0.25" value="0.25">
+        </div>
+        <div class="group">
+            <label>Nghề Nghiệp: </label> <br>
+            <input list="job" class="choice">
+            <datalist id="job">
+                <option value="Lập trình"></option>
+                <option value="Thiết kế đồ họa"></option>
+                <option value="Kiến trúc sư"></option>
+                <option value="Công nhân"></option>
+                <option value="Giáo viên"></option>
+            </datalist>
+        </div>
+        <div class="group">
+            <fieldset>
+                <legend>Sở thích: </legend>
+                <label><input type="checkbox" name="hobby">Thể Thao</label>
+                <label><input type="checkbox" name="hobby">Du Lịch</label>
+                <label><input type="checkbox" name="hobby">Âm Nhạc</label>
+                <label><input type="checkbox" name="hobby">Ẩm Thực</label>
+            </fieldset>
+        </div>
+        <div class="group">
+            <label>Ghi Chú: </label> <br>
+            <textarea class="choice" cols="53" rows="3"></textarea>
+        </div>
+        <hr>
+        <div class="group">
+            <button class="control">Đăng kí</button>
+            <button class="control">Đăng nhập</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
