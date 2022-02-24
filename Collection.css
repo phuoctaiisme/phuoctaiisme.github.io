@@ -1,0 +1,203 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box_colec{
+    max-width: 1920px;
+    max-height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding-bottom: 8px ;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+.hdsp{
+    position: relative; left: 400px; bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+}
+
+.login{
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+}
+.signup{
+    float: left;
+    margin: 10px;   
+}
+
+.signup a{
+    text-decoration: none;
+}
+.signup a:hover{
+    color: cyan;
+}
+.sn1{
+    color: black;   
+}
+
+.sn2{
+    width: 50px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.signup> .sn3{
+    color: black;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+article{
+    width: 81%;
+    height: auto;
+    float: left;
+    padding-bottom: 50px;
+    margin-right: 0px;
+
+
+}
+aside{
+    width: 19%;
+    height: auto;
+    float: left;
+    padding-bottom: 50px;
+
+}
+aside a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+aside a:hover{
+    color: cyan;
+}
+
+.collection{
+    padding: 5%;
+    text-align: center;
+}
+.sanpham{
+    margin: 10px;
+    border: 1px solid lightgray;
+    width: 15%;
+    height: 205px;
+    float: left;
+    position: relative;
+    font-size: 15px;
+}
+.sanpham:hover{
+    box-shadow: -2px 2px 4px gray;
+    font-size: small;
+    transition: 0.25s;
+}
+.sanpham>.name_collec{
+    padding: 5px;
+}
+
+.name_collec{
+    position: absolute;
+    bottom: 25px;  
+    color: rgb(90, 90, 90);
+}
+
+div>strong>a{
+    text-decoration: none;
+    color: black;
+}
+div>strong>a:hover{
+    color: red;
+}
+.gia{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px ;
+}
+.icon_au{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.icon_au>img{
+    width: 100px;
+    height: 100px;
+}
+.back{
+    text-align: left;
+}
+.back a{
+    color: gray;
+}
+.choice_size{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.size_name{
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.size_name:hover{
+    background-color: gray;
+    color: white;
+}
+.price_name{
+    width: 150px;
+    border: 1px solid black;
+    clear: both;
+    margin: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.price_name:hover{
+    background-color: gray;
+    color: white;
+}
+.size_number{
+    border: 1px solid gray;
+    width: 28px;
+    height: 27px;
+    float: left;
+    margin: 5px;
+    padding: 5px 6px;
+    text-align: center;
+    font-size: 15px;
+}
+.size_number:hover{
+    background-color: gray;
+    color: white;
+
+}
+.style_name{
+    clear: both;
+    border: 1px solid gray;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.style_name:hover{
+    background-color: gray;
+    color: white;
+}

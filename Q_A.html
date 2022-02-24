@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Ask</title>
+    <style>
+        header{
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .login {
+            position: absolute;
+            top:  90px;
+            right: 10px;
+        }
+
+        .signup {
+            float: left;
+            margin: 10px;
+        }
+
+        .signup a {
+            text-decoration: none;
+        }
+
+        .signup a:hover {
+            color: cyan;
+        }
+
+        .sn1 {
+            color: black;
+        }
+
+        .sn2 {
+            width: 50px;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        .signup>.sn3 {
+            color: black;
+            width: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+        .search-box img{
+            width: 30px;
+            position: absolute;
+            top: 83px;
+            right: 400px;
+        }
+        .search{
+            width: 800px;
+            height: 30px;
+            position: absolute;
+            top: 80px;
+            left: 300px;
+        }
+
+        .box {
+            border-top: 1px solid gray;
+            position: relative;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .box a:hover {
+            color: red;
+        }
+
+        .box_2 {
+            position: absolute;
+            top: 200px;
+            left: 470px;
+
+        }
+
+        .ask {
+            border: 1px solid gray;
+            height: 150px;
+        }
+
+        .back a {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .back a:hover {
+            color: cyan;
+        }
+
+        article {
+            min-height: 700px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .icon img {
+            width: 80px;
+        }
+
+        .contact_1 {
+            position: absolute;
+            left: 80px;
+            top: 95px;
+        }
+
+        .contact_2 {
+            position: absolute;
+            left: 80px;
+            top: 185px;
+        }
+
+        .contact_3 {
+            position: absolute;
+            left: 80px;
+            top: 270px;
+        }
+
+        footer {
+            border-top: 5px double gray;
+            line-height: 50px;
+            background-color: lightcyan;
+            text-align: center;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Image/logoStockX-removebg.png" width="100px" alt="logoStockX">
+        <div class="search-box">
+            <input type="text" class="search" placeholder="Search for brand, color, etc.."> &nbsp;
+            <img src="Image/search.png" width="20px" alt="search">
+        </div>
+        <div class="login">
+            <div class="signup">
+                <a class="sn1" href="Login.html">Login</a>
+            </div>
+
+            <div class="signup">
+                <a class="sn2" href="Signup.html">Sign Up</a>
+            </div>
+
+            <div class="signup">
+                <a class="sn3" href="#">Sell</a>
+            </div>
+        </div>
+    </header>
+    <br> <br>
+    <article>
+        <div class="back"><strong><a href="index.html">Home</a> / <a href="Q_A.html">Q&A</a></strong>
+        </div>
+        <div class="box">
+            <h1>Contact us</h1>
+            <div class="icon">
+                <img src="Image/icon_fb.png" alt="">
+                <div class="contact_1">
+                    <a href="https://www.facebook.com/phuoctai.isme/">phuoctai.isme</a>
+                </div>
+            </div>
+
+            <div class="icon">
+                <img src="Image/icon_ins.png" alt="">
+                <div class="contact_2">
+                    <a href="https://www.instagram.com/phuoctaionthemic/">phuoctaionthemic</a>
+                </div>
+            </div>
+
+            <div class="icon">
+                <img src="Image/icon_ytb.png" alt="">
+                <div class="contact_3">
+                    <a href="https://www.youtube.com/channel/UC5ZsK0UWwcBZeJG9wlz8d_A">NPT_IS.ME</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="box_2">
+            <h1>Welcome to the StockX Help Center</h1>
+            <h3> How can we help you?</h3>
+            <div class="ask">Ask a Question?</div>
+
+        </div>
+    </article>
+    <footer>
+        &copy;2022 StockX. All Rights Reserved. <br>
+        Facebook: phuoctai.isme
+    </footer>
+</body>
+
+</html>

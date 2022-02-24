@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <img src="Image/logoStockX-removebg.png" width="100px" alt="logoStockX">
+            <div class="search-box">
+                <input type="text" placeholder="Search for brand, color, etc.."> &nbsp;
+                <img src="Image/search.png" width="20px" alt="search">
+            </div>
+            <div class="login">
+                <div class="signup">
+                    <a class="sn1" href="Login.html">Login</a>
+                </div>
+
+                <div class="signup">
+                    <a class="sn2" href="Signup.html">Sign Up</a>
+                </div>
+
+                <div class="signup">
+                    <a class="sn3" href="#">Sell</a>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul class="menu_bo">
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Sneaker.html">Sneakers</a>
+                    <ul class="menu_con">
+                        <li><a href="#">Nike AF1</a></li>
+                        <li><a href="#">Jordan</a></li>
+                        <li><a href="#">Adidas</a></li>
+                    </ul>
+                </li>
+                <li><a href="Streetwear.html">Streetwear</a>
+                    <ul class="menu_con">
+                        <li><a href="#">Hoodie</a></li>
+                        <li><a href="#">Jacket</a></li>
+                        <li><a href="#">T-Shirt</a></li>
+                        <li><a href="#">Pants</a></li>
+                    </ul>
+                </li>
+                <li><a href="Handbag.html">Handbags</a>
+                    <ul class="menu_con">
+                        <li><a href="#">Gucci</a></li>
+                        <li><a href="#">Louis Vuitton</a></li>
+                    </ul>
+                </li>
+                <li><a href="Watches.html">Watches</a>
+                    <ul class="menu_con">
+                        <li><a href="#">Casio</a></li>
+                        <li><a href="#">Rolex</a></li>
+                    </ul>
+                </li>
+                <li><a href="Feedback.html">Feedback</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Q_A.html">Q&A</a></li>
+                <li><a href="Table.html">Ranking</a></li>
+            </ul>
+
+        </nav>
+        <article>
+            <br><br>
+            </head>
+
+            <body>
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="Image/v.jpeg" style="width:100%">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="Image/v2.jpeg" style="width:100%">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="Image/v3.jpeg" style="width:100%">
+
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="cen" style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) { slideIndex = 1 }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                </script>
+                <br>
+                <div class="box-mini">
+                    <strong><u>Most Popular Sneakers</u></strong>
+                    <br><br>
+                    <div class="sanpham">
+                        <div><img src="Image/1.jpg" width="150px" alt="imagesneacker"></div>
+                        <div class="name">Jordan 4 Retro Red Thunder</div>
+                        <div class="gia"><strong>$284</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/2.jpg" width="150px" alt="imagesneacker"></div>
+                        <div class="name">Jordan 1 Retro High OG Patent Bred</div>
+                        <div class="gia"><strong>$230</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/3.jpg" width="150px" alt="imagesneacker"></div>
+                        <div class="name">Nike Air Force 1 Low White '07</div>
+                        <div class="gia"><strong>$99</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/4.jpg" width="150px" alt="imagesneacker"></div>
+                        <div class="name">Jordan 4 Retro Red Thunder (GS)</div>
+                        <div class="gia"><strong>$158</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                </div>
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                <div class="box-mini">
+                    <strong><u>Trending Apparel</u></strong>
+                    <br><br>
+                    <div class="sanpham">
+                        <div><img src="Image/21.jpg" width="150px" alt="imagehoodie"></div>
+                        <div class="name">Yeezy x Gap Round Jacket Black</div>
+                        <div class="gia"><strong>$220</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/22.jpg" width="150px" alt="imagehoodie"></div>
+                        <div class="name">Yeezy x Gap Hoodie Blue</div>
+                        <div class="gia"><strong>$91</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/23.jpg" width="150px" alt="imagehoodie"></div>
+                        <div class="name">Yeezy x Gap Hoodie Black</div>
+                        <div class="gia"><strong>$98</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                    <div class="sanpham">
+                        <div><img src="Image/24.jpg" width="150px" alt="imagehoodie"></div>
+                        <div class="name">Yeezy x Gap Hoodie Brown</div>
+                        <div class="gia"><strong>$104</strong></div>
+                        <div class="icon"><img src="Image/iconstockx.png" alt="tagstockx"></div>
+                    </div>
+                </div>
+                <div class="anh">
+                    <iframe src="https://albumizr.com/a/HDZQ" scrolling="no" frameborder="0" allowfullscreen width="900"
+                        height="500"></iframe>
+                </div>
+
+        </article>
+        <!-- <aside>
+            <ul>
+                <li> <a href="Sneaker.html">SNEACKERS</a> <br></li>
+                <li> <a href="Streetwear.html">STREETWEAR</a><br></li>
+                <li> <a href="Handbag.html">HANDBAGS</a><br></li>
+                <li> <a href="Sneaker.html">WATCHES</a></li>
+            </ul>
+        </aside> -->
+
+        <footer>
+            &copy;2022 StockX. All Rights Reserved. <br>
+            Facebook: phuoctai.isme <br>
+            <div class="contact-icon">
+                <div class="icon-end">
+                    <img src="Image/icon_fb.png" alt="">
+                </div>
+                <div class="icon-end">
+                    <img src="Image/icon_ins.png" alt="">
+                </div>
+                <div class="icon-end">
+                    <img src="Image/icon_tw.png" alt="">
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://uhchat.net/code.php?f=cee8f0"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-image: url(image/background_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: lightcyan;
+    min-height: 830px;
+}
+.box{
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    width: 350px;
+    min-height: 300px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 1.5px gray;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.sub{
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+}
+.sub a{
+    color: black;
+    text-decoration: none;
+}
+.sub a:hover{
+    color: red;
+}
+.sub>.control{
+    text-align: center;
+}
+.choice{
+    float: left;
+    margin-left: 80px;
+    padding-bottom: 5%;
+    margin-bottom: 5px;
+}
+.choice:hover{
+    border-bottom: 2px solid black;
+    font-size: small;
+    transition: 0.2s;
+}
+.choice-1{
+    float: right;
+    margin-right: 80px;
+    padding-bottom: 5%;
+    margin-bottom: 5px;
+}
+.choice-1:hover{
+    border-bottom: 2px solid black;
+    font-size: small;
+    transition: 0.2s;
+}
+
+.control{
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    width: 98%;
+    height: 40px;
+    padding-bottom: 5px;
+}
+.control:hover{
+    box-shadow: 0px 2px 2px gray;
+    font-size: 15px;
+}
+
+.login{
+    width: 93%;
+    padding-left: 15px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+.login:focus{
+    font-size: 12px;
+    transition: 0.2s ease all;
+}
+.forgot{
+    float: right;
+    text-decoration: none;
+    color: grey;
+}
+.submit{
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 0px grey;
+}
+.submit:hover{
+    background-color: lightgray;
+    font-size: 12px;
+    box-shadow: none;
+}
